@@ -117,7 +117,7 @@ function Contact() {
         <div className="rounded-2xl overflow-hidden shadow-card border border-border">
           <iframe
             title="LetyTech Consultancy location — Nairobi"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35853300438!2d36.7073!3d-1.3032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNairobi%20Kenya!5e0!3m2!1sen!2ske!4v1700000000000"
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21921.299252774734!2d36.459373972709784!3d-1.3406822814756978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1776950413402!5m2!1sen!2ske" 
             width="100%"
             height="450"
             style={{ border: 0, display: "block" }}

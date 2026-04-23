@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Mail, Phone, MapPin } from "lucide-react";
+import letylogo from './../assets/images/lety logo.jpeg'
 
 export function Footer() {
   return (
@@ -7,8 +8,8 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16 grid gap-12 md:grid-cols-4">
         <div className="md:col-span-2">
           <div className="flex items-center gap-2">
-            <div className="h-9 w-9 rounded-lg bg-gradient-brand grid place-items-center text-white font-bold">LT</div>
-            <span className="font-display font-bold text-lg text-white">LetyTech Consultancy</span>
+          <img src={letylogo} alt="lety logo" className="h-auto w-5"/>
+          <span className="font-display font-bold text-lg text-white">LetyTech Consultancy</span>
           </div>
           <p className="mt-4 max-w-md text-sm leading-relaxed">
             Your trusted partner for technology, accounting and compliance solutions in Kenya. Empowering businesses to grow with confidence since 2022.

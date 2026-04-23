@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import letylogo from './../assets/images/lety logo.jpeg'
 
 const navItems = [
   { to: "/", label: "Home" },
@@ -15,9 +16,8 @@ export function Header() {
     <header className="sticky top-0 z-40 backdrop-blur-xl bg-background/80 border-b border-border/60">
       <div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">
-          <div className="h-9 w-9 rounded-lg bg-gradient-brand grid place-items-center text-white font-display font-bold shadow-brand">
-            LT
-          </div>
+        <img src={letylogo} alt="lety logo" className="h-auto w-5"/>
+
           <span className="font-display font-bold text-lg tracking-tight">
             Lety<span className="text-gradient-brand">Tech</span>
           </span>
